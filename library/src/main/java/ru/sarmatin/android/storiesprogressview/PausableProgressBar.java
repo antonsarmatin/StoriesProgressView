@@ -1,4 +1,4 @@
-package jp.shts.android.storiesprogressview;
+package ru.sarmatin.android.storiesprogressview;
 
 import android.content.Context;
 import android.support.annotation.AttrRes;

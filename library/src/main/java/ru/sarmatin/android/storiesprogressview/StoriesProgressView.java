@@ -1,4 +1,4 @@
-package jp.shts.android.storiesprogressview;
+package ru.sarmatin.android.storiesprogressview;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -238,5 +238,23 @@ public class StoriesProgressView extends LinearLayout {
     public void resume() {
         if (current < 0) return;
         progressBars.get(current).resumeProgress();
+    }
+
+    /**
+     * Clear progress
+     *  e.g. You need to load new stories in same view
+     */
+    public void clear() {
+        isComplete = false;
+        isReverseStart = false;
+        isSkipStart = false;
+    }
+
+    /**
+     *  Clear isComplete
+     */
+    public void clearCompletion() {
+        if(isComplete)
+            isComplete = false;
     }
 }

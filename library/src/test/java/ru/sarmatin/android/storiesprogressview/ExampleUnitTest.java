@@ -1,4 +1,4 @@
-package jp.shts.android.storiesprogressview;
+package ru.sarmatin.android.storiesprogressview;
 
 import org.junit.Test;
 

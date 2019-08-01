@@ -3,6 +3,8 @@ StoriesProgressView
 
 Library that shows a horizontal progress like Instagram stories.
 
+A fork from StoriesProgressView from Shota Saito(shts)
+
 [![](https://jitpack.io/v/shts/StoriesProgressView.svg)](https://jitpack.io/#shts/StoriesProgressView)
 
 <img src="image/capture.png" width=200 />
@@ -17,7 +19,7 @@ How to Use
 To see how a StoriesProgressView can be added to your xml layouts, check the sample project.
 
 ```xml
-    <jp.shts.android.storiesprogressview.StoriesProgressView
+    <ru.sarmatin.android.storiesprogressview.StoriesProgressView
         android:id="@+id/stories"
         android:layout_width="match_parent"
         android:layout_height="3dp"
@@ -89,13 +91,13 @@ Pause and Resume story
 Install
 ---
 
-Add it in your root build.gradle at the end of repositories:
+Check it in your root build.gradle at the end of repositories:
 
 ```groovy
 allprojects {
     repositories {
         ...
-        maven { url "https://jitpack.io" }
+        jcenter()
     }
 }
 
@@ -105,7 +107,7 @@ Add the dependency
 
 ```
 dependencies {
-    implementation 'com.github.shts:StoriesProgressView:3.0.0'
+    implementation 'ru.sarmatin.android:storiesprogressview:0.3.1'
 }
 
 ```
@@ -114,7 +116,7 @@ License
 ---
 
 ```
-Copyright (C) 2017 Shota Saito(shts)
+Copyright (C) 2017
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
