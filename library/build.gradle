@@ -54,7 +54,7 @@ ext {
     siteUrl = 'https://github.com/antonsarmatin/StoriesProgressView'
     gitUrl = 'https://github.com/antonsarmatin/StoriesProgressView.git'
 
-    libraryVersion = '0.3.1'
+    libraryVersion = '1.0.1'
 
     developerId = 'antonsarmatin'
     developerName = 'Anton Sarmatin'

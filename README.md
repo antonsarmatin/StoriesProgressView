@@ -107,7 +107,7 @@ Add the dependency
 
 ```
 dependencies {
-    implementation 'ru.sarmatin.android:storiesprogressview:0.3.1'
+    implementation 'ru.sarmatin.android:storiesprogressview:1.0.1'
 }
 
 ```
